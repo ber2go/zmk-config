@@ -63,9 +63,9 @@ include:
     artifact-name: nice_corne_left_view
     snippet: studio-rpc-usb-uart
   - board: nice_nano_v2
-    shield: corne_right  nice_view_gem
+    shield: corne_right_peripheral nice_view_gem
     cmake-args: -DCONFIG_NICE_VIEW_GEM_ANIMATION=y 
-    artifact-name: nice_corne_right_view
+    artifact-name: nice_corne_right_peripheral_view
 
     # puchi_ble_v1 + nice_view_gem
   # - board: puchi_ble_v1
@@ -79,7 +79,7 @@ include:
 
     # peripheral_left + nice_nano_v2 + nice_view_gem
   - board: nice_nano_v2
-    shield: corne_left_peripheral  nice_view_gem
+    shield: corne_left_peripheral nice_view_gem
     cmake-args: -DCONFIG_NICE_VIEW_GEM_ANIMATION=y 
     artifact-name: nice_corne_left_peripheral_view 
 
