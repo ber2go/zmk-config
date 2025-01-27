@@ -146,6 +146,6 @@
     };
 };
 
-#if IS_ENABLED(CONFIG_NICE_VIEW_FIX)
+#if IS_ENABLED(NICE_VIEW_FIX)
 &nice_view_spi { cs-gpios = <&pro_micro 0 GPIO_ACTIVE_HIGH>; };
 #endif
