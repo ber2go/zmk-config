@@ -17,6 +17,9 @@ endif
 
 if SHIELD_CORNE_LEFT || SHIELD_CORNE_RIGHT || SHIELD_CORNE_LEFT_PERIPHERAL || SHIELD_CORNE_DONGLE_XIAO || SHIELD_CORNE_DONGLE_PRO_MICRO
 
+config NICE_VIEW_FIX
+    boolean "Re-assign pin to fix nice!view"
+    
 config ZMK_SPLIT
     default y
 
