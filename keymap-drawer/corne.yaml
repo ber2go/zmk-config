@@ -163,7 +163,7 @@ layers:
   - F4
   - F5
   - F6
-  - SCROLLLOCK
+  - Scroll Lock
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$

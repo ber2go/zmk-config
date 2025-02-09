@@ -356,6 +356,7 @@ parse_config:
     CAPS: Caps Lock
     PSCRN: Print Scrn
     PAUSE_BREAK: Pause Break
+    SCROLLLOCK: Scroll Lock 
 
     UP: ↑
     DOWN: ↓
