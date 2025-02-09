@@ -235,6 +235,7 @@ parse_config:
     '&kp RALT': $$mdi:apple-keyboard-option$$
     '&kp RSHFT': $$mdi:apple-keyboard-shift$$
     '&kp BSPC': $$mdi:backspace-outline$$
+    '&kp ENTER': $$mdi:keyboard-return$$
 
   qmk_keycode_map:
     XXXXXXX: ''
@@ -342,9 +343,10 @@ parse_config:
     LSHFT: Shift
     RSHFT: Shift
     ESC: Esc
+    ESCAPE: Esc
     SPACE: ␣
-    BSPC: ⌫
-    BACKSPACE: ⌫
+    # BSPC: ⌫
+    # BACKSPACE: ⌫
     RET: ⏎
     TAB: ↹
     DEL: ⌦
