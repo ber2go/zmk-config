@@ -113,7 +113,7 @@ layers:
   - {t: ▽, type: trans}
   SYM:
   - '{'
-  - AMPS
+  - '&'
   - '*'
   - (
   - '}'
