@@ -344,6 +344,7 @@ parse_config:
     ESC: Esc
     SPACE: ␣
     BSPC: ⌫
+    BACKSPACE: ⌫
     RET: ⏎
     TAB: ↹
     DEL: ⌦
@@ -363,7 +364,7 @@ parse_config:
     LEFT: ←
     RIGHT: →
 
-    C_PP: ⏯
+    C_PP: ⏯️
     C_NEXT: ⏭️
     C_PREV: ⏮️
 

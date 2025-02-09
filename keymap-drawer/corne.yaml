@@ -35,12 +35,12 @@ layers:
   - {t: ␣, h: NAV}
   - {t: ↹, h: OTH}
   - {t: ENTER, h: SYM}
-  - {t: BACKSPACE, h: NUM}
+  - {t: ⌫, h: NUM}
   - {t: ⌦, h: FUN}
   NAV:
   - COPY
   - PASTE
-  - BACKSPACE
+  - ⌫
   - ⌦
   - ''
   - REDO
@@ -219,6 +219,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - ⏯
+  - ⏯️
   - ⏮️
   - ⏭️
