@@ -32,9 +32,9 @@ layers:
   - .
   - /
   - Esc
-  - {t: ␣, h: NAV}
-  - {t: ↹, h: OTH}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:symbol$$'}
+  - {t: '$$mdi:keyboard-space$$', h: NAV}
+  - {t: '$$mdi:keyboard-tab$$', h: OTH}
+  - {t: '$$mdi:keyboard-return$$', h: SYM}
   - {t: '$$mdi:backspace-outline$$', h: NUM}
   - {t: '$$mdi:backspace-reverse-outline$$', h: FUN}
   NAV:
@@ -69,7 +69,7 @@ layers:
   - Page Down
   - End
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -218,7 +218,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - ⏯️
   - ⏮️
   - ⏭️
