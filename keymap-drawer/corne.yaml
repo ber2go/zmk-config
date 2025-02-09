@@ -34,14 +34,14 @@ layers:
   - Esc
   - {t: ␣, h: NAV}
   - {t: ↹, h: OTH}
-  - {t: '$$mdi:keyboard-return$$', h: SYM}
-  - {t: BACKSPACE, h: NUM}
-  - {t: ⌦, h: FUN}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:symbol$$'}
+  - {t: '$$mdi:backspace-outline$$', h: NUM}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: FUN}
   NAV:
   - COPY
   - PASTE
-  - BACKSPACE
-  - ⌦
+  - $$mdi:backspace-outline$$
+  - $$mdi:backspace-reverse-outline$$
   - ''
   - REDO
   - PASTE
@@ -145,7 +145,7 @@ layers:
   - (
   - )
   - _
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   FUN:

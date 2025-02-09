@@ -210,6 +210,7 @@ parse_config:
 
 
     # layers
+    '&lt 3 ENTER': {h: $$mdi:symbol$$, t: $$mdi:keyboard-return$$}
     'MEDIA_ESC': {t: $$mdi:keyboard-esc$$, h: $$mdi:music-note$$}
     'MOUSE_TAB': {t: $$mdi:keyboard-tab$$, h: $$mdi:mouse$$}
     'NUMBER_SPACE': {t: $$mdi:keyboard-space$$, h: $$mdi:numeric$$}
@@ -235,6 +236,8 @@ parse_config:
     '&kp RALT': $$mdi:apple-keyboard-option$$
     '&kp RSHFT': $$mdi:apple-keyboard-shift$$
     '&kp BSPC': $$mdi:backspace-outline$$
+    '&kp BACKSPACE': $$mdi:backspace-outline$$
+    '&kp DEL': $$mdi:backspace-reverse-outline$$
     '&kp ENTER': $$mdi:keyboard-return$$
 
   qmk_keycode_map:
@@ -349,7 +352,7 @@ parse_config:
     # BACKSPACE: ⌫
     RET: ⏎
     TAB: ↹
-    DEL: ⌦
+    # DEL: ⌦
 
     PG_UP: Page Up
     PG_DN: Page Down

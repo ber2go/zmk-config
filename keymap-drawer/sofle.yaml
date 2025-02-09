@@ -99,7 +99,7 @@ layers:
   - ↓
   - ↑
   - →
-  - ⌦
+  - $$mdi:backspace-reverse-outline$$
   - $$mdi:backspace-outline$$
   - {t: ▽, type: trans}
   - UNDO
