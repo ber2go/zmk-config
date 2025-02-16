@@ -68,6 +68,7 @@
             >;
 
             label = "BASE";
+            display-name = "BASE";
         };
 
         navigation_layer {
@@ -85,6 +86,7 @@
             >;
 
             label = "NAV";
+            display-name = "NAV";
         };
 
         number_layer {
@@ -102,10 +104,12 @@
             >;
 
             label = "NUM";
+            display-name = "NUM";
         };
 
         symbol_layer {
             label = "SYM";
+            display-name = "SYM";
             bindings = <
   &kp LEFT_BRACE  &kp AMPS  &kp ASTRK             &kp LPAR               &kp RIGHT_BRACE    &none   &none      &none      &none     &bootloader
   &kp COLON       &kp DLLR  &kp PRCNT             &kp CARET              &kp PLUS           &none   &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI
@@ -116,6 +120,7 @@
 
         function_layer {
             label = "FUN";
+            display-name = "FUN";
             bindings = <
   &kp F10  &kp F7  &kp F8  &kp F9  &kp PSCRN          &none   &none      &none      &none     &none
   &kp F11  &kp F4  &kp F5  &kp F6  &kp SCROLLLOCK     &trans  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI
@@ -133,6 +138,7 @@
             >;
 
             label = "OTH";
+            display-name = "OTH";
         };
     };
 };

@@ -135,6 +135,11 @@ include:
     artifact-name: xiao_corne_dongle_oled
     snippet: studio-rpc-usb-uart
     # snippet: zmk-usb-logging
+  - board: seeeduino_xiao_ble
+    shield: corne_dongle_xiao prospector_adapter
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"Xiao_Dongle_1\" 
+    artifact-name: xiao_corne_dongle_prospector
+    # snippet: studio-rpc-usb-uart
     ### Xiao_Dongle END ###
 
     ### ProMicro_Dongle START ###
